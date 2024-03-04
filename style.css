@@ -62,7 +62,7 @@ ul {
     display: flex;
     flex:1;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: center;
     padding-right: 50px;
 }
 
@@ -83,6 +83,11 @@ img {
 .sub-text {
     font-size: 18px;
     color:#E5E7EB;
+}
+
+.main-text,
+.sub-text {
+    margin-bottom: 16px;
 }
 
 button {
