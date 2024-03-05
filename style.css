@@ -91,6 +91,7 @@ img {
 }
 
 button {
+    cursor: pointer;
     background-color: #3882F6;
     border-radius: 12px;
     border:#3882F6 solid;
@@ -98,4 +99,9 @@ button {
     padding: 8px 24px;
     margin: 8px 0;
     width: 100px;
+}
+
+/*second section*/
+.random-info {
+    display: flex;
 }
