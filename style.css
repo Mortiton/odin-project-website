@@ -90,6 +90,7 @@ img {
     height: auto;
     width:100%;
     align-self: center;
+    padding: 50px;
 }
 
 .main-text {
