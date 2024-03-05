@@ -19,7 +19,8 @@ body {
     background-color: #1F2937;
 }
 
-.hero-body {
+.hero-body,
+.random-info {
     flex-basis: 60%;
 }
 
@@ -104,4 +105,35 @@ button {
 /*second section*/
 .random-info {
     display: flex;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
+
+.info-title {
+    font-size: 36px;
+    font-weight: bolder;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+
+}
+
+.info-img-container {
+    display: flex;
+}
+
+.img-text {
+}
+
+/*third section*/
+.quote-container {
+    background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+color: #1F2937;
