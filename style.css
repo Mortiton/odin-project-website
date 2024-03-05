@@ -3,24 +3,30 @@ body {
     margin: 0;
     padding:0;
     height: 100vh;
-    overflow:hidden;
     display: flex;
     flex-direction: column;
-
 }
 
 /*hero section*/
-.hero {
+.hero,
+.info,
+.quote,
+.footer {
     display: flex;
     flex:1;
     padding:0;
     justify-content: center;
     align-items: flex-start;
+}
+
+.hero {
     background-color: #1F2937;
 }
 
 .hero-body,
-.random-info {
+.info-body,
+.quote-body,
+.footer {
     flex-basis: 60%;
 }
 
@@ -53,7 +59,7 @@ ul {
 }
 
 /*hero content*/
-.hero-content { 
+.hero-content {
     padding: 52px 0;
     display: flex;
     max-height: 300px;
@@ -102,13 +108,10 @@ button {
     width: 100px;
 }
 
-/*second section*/
-.random-info {
-    display: flex;
-    flex: 1;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
+/* second section*/
+
+.info-body {
+
 }
 
 .info-title {
@@ -116,24 +119,20 @@ button {
     font-weight: bolder;
     display: flex;
     justify-content: center;
-    align-items: flex-start;
-
-}
-
-.info-img-container {
-    display: flex;
-}
-
-.img-text {
-}
-
-/*third section*/
-.quote-container {
-    background-color: #E5E7EB;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
     align-items: center;
 }
 
-color: #1F2937;
+.info-img-container {
+
+}
+
+.img-text {
+
+
+}
+
+/*third section*/
+ .quote {
+    background-color: #E5E7EB;
+ }
+
