@@ -17,6 +17,7 @@ body {
     padding:0;
     justify-content: center;
     align-items: flex-start;
+    
 }
 
 .hero {
@@ -36,7 +37,6 @@ body {
     justify-content: space-between;
     padding: 0;
     align-items: center;
-
 }
 
 .logo {
@@ -109,26 +109,25 @@ button {
 }
 
 /* second section*/
-
-.info-body {
-
-}
-
 .info-title {
     font-size: 36px;
     font-weight: bolder;
     display: flex;
     justify-content: center;
     align-items: center;
+    margin: 24px;
 }
 
-.info-img-container {
+.info-img-text {
+    display: flex;
 
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 54px;
 }
 
 .img-text {
-
-
+    display: flex;
 }
 
 /*third section*/
